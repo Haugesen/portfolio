@@ -16,22 +16,8 @@
     height: 100%;
     display: inline-flex;
     flex-direction: row;
-    transition-duration: .5s;
-    transition-timing-function: cubic-bezier(0.68, -0.25, 0.265, 1.25);
-}
-
-.project {
-    position: relative;
-    height: 100%;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
 }
 
 .slide-nav{
@@ -65,7 +51,6 @@
 }
 
 .prev-btn:hover, .next-btn:hover{
-    text-decoration: line-through;
     opacity: 1;
 }
 
@@ -76,57 +61,62 @@
 
 
 /* SLIDE CONTENT */
-
-.project-content h1{
-    font-family: 'Teko', sans-serif;
+.project {
     color: white;
+    position: relative;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-title{
+    position: absolute;
+    transform: translateY(-15px);
+    z-index: 2;
+    font-family: 'Teko', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 10vw;
+    font-size: 8vw;
     letter-spacing: 2vw;
     padding-left: 2vw;
     margin: 0px;
-    position: relative;
     text-shadow: 0px 5px 50px rgba(0, 0, 0, 0.35);
 }
 
-.project-content h2{
-    color: rgba(237, 240, 242, 0.87); 
-    font-family: 'Overpass', sans-serif;
-    font-weight: 100;
-    font-size: 18px;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    transform: translateY(-25px);
-}
-
-.project-content a{
-    color: white;
+.project-link{
+    position: absolute;
+    transform: translateY(100px);
+    z-index: 2;
     font-family: 'Teko', sans-serif;
     font-size: 20px;
     padding: 15px;
     letter-spacing: 8px;
     font-weight: 100;
     text-transform: uppercase;
-    position: relative;
     color: rgba(255, 255, 255, 0.54);
     cursor: pointer;
     transition-duration: .2s;
 }
 
-a:hover{
+.project-link:hover{
     color: white;
 }
 
-
-.project-content{
+.project-image{
     position: absolute;
-    z-index: 1000;
+    opacity: .2;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    width: 70%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.project-image img{
+    height: 150%;
 }
 
 

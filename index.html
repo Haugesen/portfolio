@@ -19,54 +19,40 @@
             <div class="square"></div>
             <div class="square"></div>
         </div>
-        <div class="about-me">Who am i ?</div>
+        <div class="about-me-btn">Who am i ?</div>
     </div>
     
-    <div id="git-link"><img src="graphics/github_small_white.svg"></div>
+    <div class="about-me-modal">
+        <div class="close-modal-btn" id="close-about-btn">&#10799;</div>
+        <div class="modal-content">
+            <h1>About me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia risus urna, id iaculis ante scelerisque in. Morbi imperdiet massa ante, sit amet condimentum quam faucibus commodo. Vivamus ut mauris non augue feugiat auctor ut faucibus elit. Curabitur dolor tellus, fermentum in metus vitae, hendrerit commodo tortor.</p>
+        </div>
+    </div>
+    
+    <a href="https://github.com/Haugesen" target="_blank" id="git-link"><img src="graphics/github_small_white.svg"></a>
   
     <div class="content-container">
         <div class="main-content">
             <div class="project">
-                <div class="project-content">
-                    <h1>The Voyager</h1>
-                    <a class="view-project-btn">View Project</a>
-                    <div class="project-image" id="pro1"></div>
-                </div>
+                <h1 class="project-title">Taskmaster</h1>
+                <a class="project-link">View Project</a>
+                <div class="project-image"><img src="images/Taskmaster.jpg"></div>
             </div>
             <div class="project">
-                <div class="project-content">
-                    <h1>Bergans</h1>
-                    <a class="view-project-btn">View Project</a>
-                    <div class="project-image" id="pro2"></div>
-                </div>
+                <h1 class="project-title">Bergans</h1>
+                <a class="project-link">View Project</a>
+                <div class="project-image"><img src="images/bergans-pro-image.jpg"></div>
             </div>
             <div class="project">
-                <div class="project-content">
-                    <h1>TaskMaster</h1>
-                    <a class="view-project-btn">View Project</a>
-                    <div class="project-image"></div>
-                </div>
+                <h1 class="project-title">Lights out</h1>
+                <a class="project-link">View Project</a>
+                <div class="project-image"><img src="images/lights_out.png"></div>
             </div>
             <div class="project">
-                <div class="project-content">
-                    <h1>Lights out</h1>
-                    <a class="view-project-btn">View Project</a>
-                    <div class="project-image"></div>
-                </div>  
-            </div>
-            <div class="project">
-                <div class="project-content">
-                    <h1>Random</h1>
-                    <a class="view-project-btn">View Project</a>
-                    <div class="project-image"></div>
-                </div>  
-            </div>
-            <div class="project">
-                <div class="project-content">
-                    <h1>Unknown</h1>
-                    <a class="view-project-btn">View Project</a>
-                    <div class="project-image"></div>
-                </div>  
+                <h1 class="project-title">The voyager</h1>
+                <a class="project-link">View Project</a>
+                <div class="project-image"></div>
             </div>
         </div>
     </div>
@@ -78,6 +64,7 @@
     
     
 
+    <script src="js/main.js"></script>
     <script src="js/slide.js"></script>
     <script src="js/view-btn.js"></script>
 </body>

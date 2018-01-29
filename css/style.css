@@ -26,7 +26,7 @@ body{
     align-items: center;
 }
 
-.about-me{
+.about-me-btn{
     margin-left: 50px;
     padding-left: 50px;
     border-left: 2px solid rgba(255, 255, 255, 0.5);
@@ -34,11 +34,17 @@ body{
     color: white;
     text-transform: uppercase;
     font-size: 20px;
-    letter-spacing: 3px
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.about-me-btn:hover{
+    text-decoration: line-through;
 }
 
 #git-link{
     position: absolute;
+    z-index: 6000;
     bottom: 50px;
     right: 50px;
     opacity: .5;
@@ -50,6 +56,58 @@ body{
     opacity: 1;
 }
 
+.about-me-modal{
+    position: absolute;
+    z-index: 5000;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #13161F;
+    color: white;
+    transition-duration: .3s;
+}
+
+.about-me-modal.active{
+    visibility: visible;
+    opacity: 1;
+    transition-duration: .3s;
+}
+
+.close-modal-btn{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.close-modal-btn:hover{
+}
+
+.modal-content{
+    margin: 15%;
+}
+
+.modal-content h1{
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.modal-content p{
+    max-width: 700px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 200;
+    line-height: 30px;
+}
 
 @media only screen and (max-width: 700px) {
 

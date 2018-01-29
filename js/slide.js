@@ -37,6 +37,7 @@ var responsiveSlider = function() {
             mainSlider.style.left = '-' + currentSlide * sliderWidth + 'px';
             currentSlide++;
         }
+        
         // show or hide previous slide btn
         if(currentSlide > 1){
             prev.classList.remove('hidden');
