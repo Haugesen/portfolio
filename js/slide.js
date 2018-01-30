@@ -56,6 +56,10 @@ var responsiveSlider = function() {
         prevSlide();
     });
     
+    window.onresize = function(){ 
+        prevSlide(); 
+    };
+    
     // Navigate slides with arrow keys
     document.addEventListener('keydown', function onKeyDown(e) {
 
@@ -74,6 +78,7 @@ window.onload = function() {
 }
 
 // window.onresize = function(){ location.reload(); }
+// 
 
 
 

@@ -15,3 +15,15 @@ closeAboutBtn.addEventListener('mousedown', closeAbout);
 function closeAbout(event){
     aboutModal.classList.remove('active');
 };
+
+
+var tipModal = document.querySelector('.navigate-modal');
+var closeTip = document.querySelector('.close-tip');
+
+closeTip.addEventListener('mousedown', closeTipModal);
+
+function closeTipModal(event){
+    
+    if(window.innerWidth)
+    tipModal.classList.add('hidden');
+}

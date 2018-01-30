@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="378px" height="120px" viewBox="0 0 378 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-61.000000, -65.000000)">
+        <g id="Group" transform="translate(61.000000, 65.000000)">
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" x="1" y="1" width="118" height="118" rx="10"></rect>
+            <rect id="Rectangle-Copy-2" stroke="#FFFFFF" stroke-width="2" x="259" y="1" width="118" height="118" rx="10"></rect>
+            <path d="M248,56 L248,10 C248,5.02943725 243.970563,1 239,1 L139,1 C134.029437,1 130,5.02943725 130,10 L130,56 L248,56 Z M248,64 L130,64 L130,110 C130,114.970563 134.029437,119 139,119 L239,119 C243.970563,119 248,114.970563 248,110 L248,64 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="2"></path>
+            <polygon id="Rectangle-2" fill="#FFFFFF" transform="translate(60.000000, 59.727922) rotate(-315.000000) translate(-60.000000, -59.727922) " points="58.313048 50.7279221 63.656524 56.0713981 69 61.4148741 51 68.7279221"></polygon>
+            <polygon id="Rectangle-2-Copy" fill="#FFFFFF" transform="translate(317.727922, 59.727922) scale(-1, 1) rotate(-315.000000) translate(-317.727922, -59.727922) " points="316.04097 50.7279221 321.384446 56.0713981 326.727922 61.4148741 308.727922 68.7279221"></polygon>
+        </g>
+    </g>
+</svg>
